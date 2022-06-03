@@ -31,7 +31,7 @@ nav ul {
     display: flex;
     justify-content: center;
     background: red;
-    width: 150px;
+    width: 200px;
     padding: 5px;
     border-radius: 3px;
 }
@@ -39,11 +39,12 @@ a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
+    margin: auto;
 }
 nav li {
     list-style: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .main-home {
         background: url(../images/background-home-movil.jpg) no-repeat;
         background-position: center;
